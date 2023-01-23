@@ -8,6 +8,15 @@ def introduction(name, year, birth):
 introduction(first_name, current_year, birth_year)
 
 
+budget = 100 
+gorcery_total = 60.5
+
+def shopping_trip(total, amount):
+    if total < amount:
+        print("Your total cost is " + str(total) + ". You have enough in the budget for your gorceries! :D")
+
+
+shopping_trip(gorcery_total, budget)
 
 
 
