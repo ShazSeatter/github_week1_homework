@@ -14,7 +14,8 @@ gorcery_total = 60.5
 def shopping_trip(total, amount):
     if total < amount:
         print("Your total cost is " + str(total) + ". You have enough in the budget for your gorceries! :D")
-
+    else: 
+        print("You don't have enough in the budget to afford your gorceries! :(")
 
 shopping_trip(gorcery_total, budget)
 
