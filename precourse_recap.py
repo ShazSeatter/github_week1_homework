@@ -1,9 +1,9 @@
-first_name = "Shaz"
+first_name = input("What is your name?")
 current_year = 2023
-birth_year = 1996
+birth_year = input("What year were you born?")
 
 def introduction(name, year, birth):
-    print("Hello " + name + ". You are " + str(year - birth) + " years old.")
+    print("Hello " + name + ". You are " + str(year - int(birth)) + " years old.")
 
 introduction(first_name, current_year, birth_year)
 
